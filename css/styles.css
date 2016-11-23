@@ -88,16 +88,22 @@ padding:0px;
 }
 
 nav.main-nav {
+display: -ms-flex;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+flex-wrap: wrap;
+-webkit-flex-wrap: wrap;
+justify-content:center;
 text-align: center;
 padding-top: 5px;
 padding-bottom: 0px;
-text-align: center;
 width: 100%;
-background-color: #3e3436;
+background-color: #043757;
 opacity: 1;
 font-size: 100%;
 height: 35px;
-
 border-style: solid none;
 z-index: 10;
 }
@@ -115,15 +121,7 @@ padding: 0px 30px;
 letter-spacing: .1em;
 }
 
-.nav-container {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-align-items: flex-start;
-display: inline;
-margin: 0 auto;
-}
+
 
 
 /* here I'm creating a special class for the jquery to use */
@@ -135,7 +133,7 @@ padding-top: 5px;
 padding-bottom: 0px;
 text-align: center;
 width: 100%;
-background-color: #3e3436;
+background-color: #043757;
 opacity: 1;
 font-size: 100%;
 height: 35px;
@@ -259,6 +257,7 @@ word-spacing: 0.1em;
 h1 {
 padding: 0px;
 margin: 0px;
+line-height: 1.1em;
 }
 
 h2 {
@@ -349,7 +348,7 @@ font-style: italic;
   display:none;
   overflow: initial;
   width: 225px;
-  background: #3e3436;
+  background: #043757;
   border-radius: 0px;
   padding: 0;
   position: absolute;
@@ -374,7 +373,7 @@ font-style: italic;
   padding-top: 0;
   margin-top: 0;
   width: 100%;
-  background: #3e3436;
+  background: #043757;
 }
 
 /*position:relative; will allow us to absolutely position the sub menus according to this main nav bar, then display:inline-table will condense the width of the menu to fit. */

@@ -1,0 +1,561 @@
+/* footer: changed body margin (35px bottom is height of footer) */
+/* footer: added styling that targerst html */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+margin: 0 0 35px;
+padding: 0;
+}
+
+/* footer start */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  background-color:#FF7B3A ; /* orange */
+  font-size: 100%;
+  text-align: middle;
+  border: 1px black;
+  border-style: solid none;
+  font-family: 'Raleway', serif;
+  color: white;
+}
+
+.navbar-nav {
+  display: inline;
+  text-align: center;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  padding: 2px;
+}
+
+
+
+.footertext {
+  font-size: 100%;
+}
+
+
+nav {
+  text-align: right;
+}
+
+ul {
+	overflow: auto;
+}
+
+ul li a i {
+	background: #205D7A;
+	color: #fff;
+	width: 30px;
+	height: 25px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+
+.fa-linkedin {
+	background:;
+}
+
+}
+.fa-twitter {
+	background:;
+}
+
+ul li a i {
+	transition: all 0.2s ease-in-out;
+}
+ul li a i:hover {
+	opacity: .7;
+}
+/* footer end */
+
+/* nav bar 16/11/16 */
+
+.space {
+padding:0px;
+}
+
+nav.main-nav {
+text-align: center;
+padding-top: 5px;
+padding-bottom: 0px;
+text-align: center;
+width: 100%;
+background-color: #3e3436;
+opacity: 1;
+font-size: 100%;
+height: 35px;
+
+border-style: solid none;
+z-index: 10;
+}
+
+
+nav.main-nav a {
+font-family: 'Raleway', serif;
+font-size: 150%;
+font-weight:bold;
+color: #919191;
+font-weight: 400;
+text-decoration: none;
+display: inline-block;
+padding: 0px 30px;
+letter-spacing: .1em;
+}
+
+.nav-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+display: inline;
+margin: 0 auto;
+}
+
+
+/* here I'm creating a special class for the jquery to use */
+
+nav.main-nav.stickytop {
+position: fixed;
+top: 0px;
+padding-top: 5px;
+padding-bottom: 0px;
+text-align: center;
+width: 100%;
+background-color: #3e3436;
+opacity: 1;
+font-size: 100%;
+height: 35px;
+border: 1px black;
+border-style: solid none;
+display: -webkit-flex;
+-webkit-flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+nav a.active,nav a:hover {
+color: #FF7B3A;
+}
+
+/* close nav bar */
+/*media queries to fix layout on smaller devices */
+
+@media all and (min-width: 360px) and (max-width: 480px) {
+  header {
+      padding:5px 0 55px;
+  }
+
+  nav.main-nav a {
+      font-size:17px;
+  }
+
+  nav.main-nav {
+      height:55px;
+  }
+
+  .container {
+      margin:0 auto;
+      width:50%;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+      padding:5px 0 55px;
+  }
+
+  nav.main-nav a {
+      font-size:17px;
+  }
+
+  nav.main-nav {
+      height:55px;
+  }
+
+  .container {
+      width:92%;
+  }
+}
+
+/* close media queries */
+
+header {
+background-color: #87CEFA;
+padding-bottom: 20px;
+display: block;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+}
+
+#page1  {
+height: 600px;
+Background:
+  url(https://s13.postimg.org/3k7iujxh3/DSC_0444_2.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center
+}
+
+#page2  {
+height: 1000px;
+Background: #87CEFA;
+text-align: center
+}
+
+#page2.5 {
+height: 00px;
+background-color: #87CEFA;
+}
+
+#page3  {
+height: 1000px;
+Background:
+  url(https://s3.postimg.org/uuh9ttckj/norway.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+width: 100%;
+}
+
+#page4  {
+height: 1000px;
+Background: #87CEFA;
+}
+
+
+#title {
+padding: 0;
+margin: 0;
+text-align: center;
+font-family: 'Shrikhand', cursive;
+font-size: 600%;
+color:  black;
+text-shadow: 3px 3px 2px #FF7B3A;
+letter-spacing: .03em;
+word-spacing: 0.1em;
+}
+
+h1 {
+padding: 0px;
+margin: 0px;
+}
+
+h2 {
+display: inline;
+text-align: center;
+padding: 0px;
+margin: 0px;
+font-family: 'Raleway', serif;
+font-size: 150%;
+color:  black;
+text-shadow: 0.5px 0.5px 0.5px #FF7B3A;
+}
+
+.subtitle-top {
+padding-top: 1%;
+padding-left: 25%;
+text-align: left;
+}
+
+.subtitle-bottom {
+text-align: right;
+padding-top: 0px;
+padding-right: 25%;
+}
+
+#profile {
+text-align: center;
+border-radius: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
+max-width: 28%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 2px;
+border-color: #FF7B3A;
+}
+
+span {
+  padding-left: 50x;
+  padding-right: 50px;
+}
+
+
+p {
+padding-top: 0%;
+margin: 0;
+}
+
+.heading-space {
+padding-top: 30px;
+background-color: #87CEFA;
+}
+
+.heading {
+padding-top: 0px;
+padding-bottom: 0px;
+text-align: center;
+font-family: 'Shrikhand', cursive;
+font-size: 500%;
+color:  black;
+text-shadow: 2px 2px 2px #FF7B3A;
+}
+
+#bio {
+text-align: middle;
+background: #87CEFA;
+padding: 0px;
+margin: 0% 10% 10% 10%;
+font-family: 'Raleway', serif;
+font-size: 150%;
+color:  black;
+text-shadow: 1px 1px 1px #a6a6a6;
+
+}
+
+.smalltxt {
+font-size: 200%;
+font-style: italic;
+}
+
+/* Webdev page start */
+
+/* hide the sub menus by targeting any UL’s within a UL  */
+/* sub menues inherit styles from their parent elements, to make sure they fly out underneath the main menu they are positioned absolutely 100% from the top of the UL (ie, the bottom). */
+.webDevNav ul ul {
+  display:none;
+  overflow: initial;
+  width: 225px;
+  background: #3e3436;
+  border-radius: 0px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*to make these menus reappear they need to be converted back to block elements on hover of the LI */
+/*he > child selector makes sure only the child UL of the LI being hovered is targeted, rather than all sub menus appearing at once. */
+
+.webDevNav ul li:hover > ul {
+  display:block;
+}
+
+.webDevNav {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  width: 100%;
+  background: #3e3436;
+}
+
+/*position:relative; will allow us to absolutely position the sub menus according to this main nav bar, then display:inline-table will condense the width of the menu to fit. */
+.webDevNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-table;  /* may change to inline-block */
+  position: relative;
+  font-family: 'Raleway', serif;
+}
+
+.webDevNav ul:after {
+  content: ""; clear: both; display: block;
+}
+
+.webDevNav ul li {
+  float: left;
+}
+
+.webDevNav ul li:hover {
+  background: #2e2728;
+  color: #FF7B3A;
+}
+
+
+/* CSS rules added to the <li> and the nested anchor. In the browser this will make the link change to a blue gradient background and white text. */
+	.webDevNav ul li a {
+		display: block;
+    padding: 15px 56px;
+		color: #757575;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: left;
+	}
+
+
+.webDevNav ul ul li {
+  float: none;
+  position: relative;
+}
+
+.webDevNav ul ul li a {
+  padding: 15px 40px;
+  color: #757575;
+}
+
+.webDevNav ul ul li a:hover {
+  background: #2e2728; /* dark grey */
+  color: #FF7B3A; /* orange */
+}
+
+/* The final step is to position the sub-sub-menus accordingly. These menus will be inheriting all the sub-menu styling already, so all they need is to be positioned absolutely to the right (left:100%) of the relative position of the parent <li>.*/
+
+.webDevNav ul ul ul {
+	position: absolute; left: 100%; top:0;
+  width: 300px;
+}
+
+/* webdev page end */
+
+/* contact page start */
+li {
+list-style:none
+}
+
+h4 {
+margin-bottom: 1%;
+}
+
+#contactcontent {
+  background-color:
+  display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content:center;
+}
+
+ul #contacticons {
+  padding-top: 0;
+}
+
+#socialmedia {
+  height: 200px;
+  background-color: #87CEFA;
+  font-family: 'Raleway', serif;
+  font-size: 130%;
+  color:  black;
+  text-shadow: 1px 1px 1px #a6a6a6;
+}
+
+.contentform {
+  background-color: #87CEFA;
+  font-family: 'Raleway', serif;
+  font-size: 150%;
+  color:  black;
+  text-shadow: 1px 1px 1px #a6a6a6;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+
+input {
+  width: 375px;
+  height:25px;
+  display: block;
+  background: #d2edfd;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+padding: 5px 5px; /* padding inside text box */
+margin: 10px 0;
+font-family: 'Raleway', serif;
+font-size: 70%;
+}
+
+input:focus {
+  background: white;
+  border: 1px solid #FF7B3A;
+}
+
+
+
+textarea {
+  width: 375px;
+  height:205px;
+  display: block;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+padding: 5px 5px; /* padding inside text box */
+margin: 10px 0;
+font-family: 'Raleway', serif;
+font-size: 70%;
+background: #d2edfd; /* ligher blue that background */
+}
+
+.formButton {
+ width: 375px;
+ height: 40px;
+ margin-top: 20px;
+ background: #d2edfd;
+ color: #919191;
+ text-shadow: 0.5px 0.5px 0.5px black;
+ font-family:'Raleway', serif;
+ font-size: 80%;
+ border: 1px solid #999;
+}
+
+.formButton:hover {
+ width: 375px;
+ height: 40px;
+ margin-top: 20px;
+ background: #FF7B3A;
+ color: white;
+ text-shadow: 1px 1px 1px #a6a6a6;
+ font-family:'Raleway', serif;
+ font-size: 80%;
+ border: 0.5px solid black;
+}
+
+.formButton:active {
+transform: translateY(2px);
+}
+
+textarea:focus {
+  background: white;
+  border: 1px solid #FF7B3A;
+}
+
+#contactsubtitle {
+  text-align: center;
+  font-family: 'Raleway', serif;
+  font-size: 150%;
+  color:  black;
+  text-shadow: 1px 1px 1px #a6a6a6;
+}
+
+/* contact page end */

@@ -446,7 +446,6 @@ margin-bottom: 1%;
 }
 
 #contactcontent {
-  background-color:
   display: -ms-flex;
 	display: -webkit-flex;
 	display: flex;
@@ -555,6 +554,7 @@ textarea:focus {
   font-size: 150%;
   color:  black;
   text-shadow: 1px 1px 1px #a6a6a6;
+  padding-bottom: 5%;
 }
 
 /* contact page end */

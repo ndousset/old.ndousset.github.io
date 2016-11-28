@@ -213,13 +213,13 @@ background-size: cover;
 text-align: center
 }
 
-#page2  {
+#about  {
 height: 1000px;
 Background: #87CEFA;
 text-align: center
 }
 
-#page2.5 {
+#goals {
 height: 00px;
 background-color: #87CEFA;
 }
@@ -236,7 +236,7 @@ text-align: center;
 width: 100%;
 }
 
-#page4  {
+#webdevnotes  {
 height: 1000px;
 Background: #87CEFA;
 }

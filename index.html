@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Shrikhand|Old+Standard+TT|Merriweather|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="stickynav.js"></script>
+  <script type="text/javascript" src="fadeIn.js"></script>
+  <script type="text/javascript" src="smoothScroll.js"></script>
 </head>
 
 <body>
@@ -19,12 +21,11 @@
   </header>
 
   <div id="page1">
-
     <nav class="main-nav nav-container container">
         <a href="#home"> Home </a>
         <a href="#about"> About </a>
         <a href="#goals"> Goals </a>
-        <a href="#WebDevNotes"> Web Dev Notes </a>
+        <a href="#webDevNotes"> Web Dev Notes </a>
     </nav>
     <!-- close of navbar -->
 
@@ -130,120 +131,230 @@
   </nav>
 
 </div>
-  <!-- close page3 -->
 
+  <!-- close page3 -->
+<div id="webDevNotes">
     <div align="center" class="heading-space">
-    <h2 id="WebDevNotes" class="heading"> Web Dev Notes </h2>
+    <h2 class="heading"> Web Dev Notes </h2>
   </div> <!-- close heading space -->
 
-    <div class="webDevNotes">
+
 
 <div class="sidebar">
-<h2> Join the Study Group </h2>
-  <br></br>
-<p> Follow on twitter </p>
-<br></br>
-<p> Subscribe to Web Dev Notes </p>
-<h3> Test 1 - Javascript separate file  </h3>
-<p> didnt take while snippet </p>
 
-<form action="//github.us14.list-manage.com/subscribe/post?u=4714e89b4a6736eb5b3d1a0f8&amp;id=4e1bf8d953" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-<input id="subscribe-text" type="email" value="your.email@address.com" name="EMAIL" class="required email" onfocus="this.value=''">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-button">
-</form>
+  <div class="studyGroup">
+  <h2> Join the Study Group! </h2>
 
-<h3> Test 2 - Javascript same file </h3>
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//github.us14.list-manage.com/subscribe/post?u=4714e89b4a6736eb5b3d1a0f8&amp;id=4e1bf8d953" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
+  <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup">
+  <form action="//github.us14.list-manage.com/subscribe/post?u=4714e89b4a6736eb5b3d1a0f8&amp;id=4e1bf8d953" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
 
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  <div class="mc-field-group">
+  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail" >
+  </div>
+  	<div id="mce-responses" class="clear">
+  		<div class="response" id="mce-error-response" style="display:none"></div>
+  		<div class="response" id="mce-success-response" style="display:none"></div>
+  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4714e89b4a6736eb5b3d1a0f8_4e1bf8d953" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+<p> Receive a monthly study guide</p>
+  <!--End mc_embed_signup-->
+
+  </div>
+
+<div id=twitterFollow>
+<button id=twitterbutton>
+  <a href="https://twitter.com/Nick_Dousset" target="_blank">
+  <i class="fa fa-twitter" aria-hidden="true"></i> Follow   </a>
+ </button>
 </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4714e89b4a6736eb5b3d1a0f8_4e1bf8d953" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
+
+
+
+<div id="archive">
+
+<h2> Notes: </h2>
+
+<div>
+Project Manager to Frontend Developer
 </div>
 
-<!--End mc_embed_signup-->
-<h4 class="sidebarlistHeading"> Archive </h4>
-<ul id="sidebarlist">
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-  <li> Welcome to Web-Dev Notes </li>
-</ul>
 
-
+</div> <!-- close archive -->
 </div> <!-- close sidebar -->
 
 
 <!-- close side bar -->
 
 <div class="articles">
-<div id="pageheading" >
-  <h1 class="topicheading">Project Manager <a> to </a> Frontend Developer </h1>
-  <div class="taglist">
-  <ul>
-    <li> <b> Categories: </b> </li>
-    <li> Thoughts </li>
-  </ul>
-</div>
 
-</div> <!-- close page heading -->
 
 <div class="topic">
-<h2 class="topicsubheading"> My Coding Story </h2>
-<p class="firstParagraph"> I felt accomplised and challenged as a Project Manager. I was managing other professionals', I understood the ins-and-outs of my projects, I was anticipating risks and solving problems.
+<h1 class="topicheading">Project Manager to Frontend Developer: My Coding Story </h1>
+
+<p class="firstParagraph"> I felt accomplished and challenged as a Project Manager. I was managing other professionals', I understood the ins-and-outs of my projects, I was anticipating risks and solving problems.
  I was a good at my job, but I was unsatisfied.</p>
 
-<p>  I had a nagging desire to create, design and 'do' something myself. Coding and app development had always been on my radar but I never seriously considered a career change into Tech. </p>
 
-<p>
-  In June 2016 I took the opportunity of represeting Australia at the Ultimate Frisbee World Championships in London to take a career break and extensively travel Eastern Europe.
+<p>  I had a nagging desire to create, design and 'do' something myself. Coding and app development had always been on my radar but I never seriously considered a career change into Tech.
+  In June 2016 I took the opportunity of representing Australia at the Ultimate Frisbee World Championships in London to take a career break and extensively travel Eastern Europe.
   </p>
-  <br><br>
   <p class="quote"> *Quarter-life crisis in full swing* </p>
-  <br></br>
 <p>
-  While travelling, I entertained my curiosity in website, application and program development. In September 2016, I settled in Berlin and commited to learn the art and science of Web Developement with the impression that I would teach myself to code.
+  While travelling, I entertained my curiosity in website, application and program development. In September 2016, I settled in Berlin and committed to learn the art and science of Web Development with the impression that I would teach myself to code.
  </p>
-<p> A few months down the particularly bumpy road I havn't looked back. The 'self taught path' is flexible and liberating but is only as structured as your selfcontrol; theres no assignment or exam pressure (which while isnt pleasureable, undoubtedly works), only your own motivation to make a little progress each day.  </p>
-
-<h2 class="topicsubheading"> Web Dev Notes </h2>
-  <p>
- I made this website using HTML, CSS and javascript to track my progress and goals, practice the tools I learn and to share my 'Web Dev Notes' with the community. </p>
- <p> My vision for 'Web Dev Notes' is to create a collection of tutorials, examples and notes as a reference for myself and others learning Web Development.
-  </p>
+<p> A few months down the particularly bumpy road I haven't looked back. The 'self taught path' is flexible and liberating but is only as structured as your self control; there's no assignment or exam pressure (while isn't pleasurable, undoubtedly works), only your own motivation to make progress each day.  </p>
 
   <p>
-    Please reach out if you want to talk: code, web-dev, design, my notes, flag any of the endless bugs on my site or ultimate frisbee!
-  </p>
+ I made this website using HTML, CSS and javascript to track my progress and goals, practice the tools I learn and to share my 'Web Dev Notes' with the community. My vision is to create a collection of tutorials, examples and notes as a reference for myself and others learning Web Development.
+    Please reach out! I would love to hear from you.
 </div> <!-- close topic -->
+
+
+<div class="topic">
+<h1 class="topicheading"> Website Layout Notes </h1>
+    <div class="taglist">
+    <ul>
+      <li> CSS / HTML </li>
+    </ul>
+  </div>
+
+  <h3 class="topicsubheading">The Display Property </h3>
+  <div>
+    <p> Display property is the most important property for controlling layout. Every element has a default display value depending on what type of element it is. Display propery types include: </p>
+    <ul class="notes">
+      <li class="notes">
+         <p> <b> Block (or block level): </b> Starts on a new line & stretches to the left and right as far as it can. I.e. div, p, form, header, footer, section. </p>
+      </li>
+      <li>
+         <p> <b> Inline: </b> Occupies only the space bound by the tags that define the inline element, they generally don't start a new line and contain only data or other inline elements i.e. span, a, img, strong, i. </p>
+      </li>
+      <li>
+        <p> <b> None: </b> Commonly used to hide & show elements without deleting and re-creating them </p>
+      </li>
+      <li>
+        <p> <b> Other properties: </b> There are many other properties all with unqiue uses, i.e. table, grid, flex... </p>
+      </li>
+    </ul>
+    <p>Every element has a pre-defined display type, however, it can always be overridden to customise the display of elements i.e. making 'li' elements 'inline' for horizontal menus </p>
+  </div>
+
+
+    <h3 class="topicsubheading">Centering with 'Margin: auto' </h3>
+      <textarea class=smalltxtarea>
+       #list {
+       max-width: 450px;
+       margin: 0 auto;
+       </textarea
+
+    <div class="bulletpoints">
+      <ul>
+        <li> Setting the width of an element prevents it from stretching to the edges of it's container </li>
+        <li> Setting left & right margins to 'auto' horizontally centers an element within it's container </li>
+        <li>The element takes up the width you specify, the remaining space either side is shared between the two margins </li>
+        <li>Using 'max-width' allows better handling of small windows, allowing a site to be usable on mobile </li>
+      </ul>
+    </div>
+
+<div class="topic">
+  <h2> The Box Model <span class="subheading"> widths biggest caveat </span>  </h2>
+
+
+  <div id="box1">
+    <p> An element can appear larger than the width you set. An elements boarder & padding will stretch an element as seen with these 2 boxes </p>
+    width: 500px; <br></br>
+    margin: 20px auto;
+  </div>
+
+  <div id="box2">
+    width: 500px; <br></br>
+    margin: 20px auto; <br></br>
+    padding: 50px;
+  </div>
+
+  <p> This was considered unintuitive so a css property called 'box-sizing' was created. When you set (box-sizing: border-box) on an element, the padding and border no londer increases its width </p>
+
+  <div id="box3">
+    max-width: 500px; <br></br>
+    margin: 20px auto;<br></br>
+    -webkit-box-sizing: border-box;<br></br>
+    -moz-box-sizing: border-box;<br></br>
+    box-sizing: border-box;
+  </div>
+
+  <div id="box4">
+    max-width: 500px; <br></br>
+    margin: 20px auto; <br></br>
+    padding: 50px;<br></br>
+    -webkit-box-sizing: border-box;<br></br>
+    -moz-box-sizing: border-box;<br></br>
+    box-sizing: border-box;
+  </div>
+
+  <p class="sameblock"> Since box-sizing is a recent property, using the -webkit- and -moz- prefixes enables the feature in specific browsers. If you would like all elements to work this way, include the following CSS on your page: </p>
+
+  <div id="example2">
+    <p class="sameblock">* { </p>
+    <p class="sameblock"><span class="indent"></span> -webkit-box-sizing: border-box; </p>
+    <p class="sameblock"><span class="indent"></span> -moz-box-sizing: border-box; </p>
+    <p class="sameblock"><span class="indent"></span> box-sizing: border-box; </p>
+    <p class="sameblock"> } </p>
+  </div>
+</div>
+<!-- close box topic -->
+<div class="topic">
+  <h2> Position </h2>
+  <p> Position specifies which type of positioning method is used for an element: Static, Relative, Absolute or Fixed. </p>
+
+   <ul>
+      <li class="sameblock">
+        <h4 class="sameblock">Static </h4>
+        <p class="sameblock"> Default value, a 'static' element is said to be 'not positioned'. Elements render in order as they appear in the document flow. </p>
+      </li>
+      <li class="sameblock">
+        <h4 class="sameblock">  Relative </h4>
+        <p class="sameblock"> Behaves the same as static unless you define further properties: (top, right, bottom, left) the element is then positioned relative to its normal position. i.e left:20px; will add 20 pixels to the elements left position </p>
+      </li>
+      <li class="sameblock">
+        <h4 class="sameblock"> Fixed </h4>
+        <p class="sameblock">Positioned relative to the browser window - it stays in position when the page is scrolled. Commonly used for headers and footers. - Mobile browsers have poor support for fixed.  </p>
+      </li>
+      <li class="sameblock">
+        <h4 class="sameblock"> Absolute </h4>
+        <p class="sameblock"> Absolute behaves like fixed except relative to the nearest positioned ancestor instead of the browser window. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. A "positioned" element is one whose position is anything except static.  </p>
+     </li>
+    </ul>
+  <h4> insert positioning example </h4>
+
+
+</div>
+<!-- close topic -->
+<div class="topic">
+  <h2> Float </h2>
+  <img id="floatExampleImg" src="https://i.imgsafe.org/eef8488c83.jpg" alt="mushroom picture I took">
+  <p id="floatExample"> Originally for floating images inside blocks of text like I have done here, the float property has become one of the most commonly used tools for creating multiple column layouts on webpages </p>
+
+<p> the element with the float set on it (the img element in this case) is taken out of the normal layout flow of the document and stuck to the left hand side of its parent container. </p>
+ <p> Any content that comes below the floated element in the normal layout flow will now wrap around it, filling up the space to the left hand side of it as far up as the top of the floated element. Note that floated content still obeys normal box behaviour with things such as margin and borders.</p>
+
+</div> <!-- close topic -->
+
 
 </div> <!-- close articles -->
 <div class="clear">
 </div> <!-- close clear -->
+
 </div> <!-- close web deb notes -->
 </div>
 </div>
 
 
- 
+
 <!-- close page4 -->
 
 

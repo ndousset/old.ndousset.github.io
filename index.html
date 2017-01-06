@@ -25,7 +25,6 @@
         <a href="#home"> Home </a>
         <a href="#about"> About </a>
         <a href="#goals"> Goals </a>
-        <a href="#webDevNotes"> Web Dev Notes </a>
     </nav>
     <!-- close of navbar -->
 
@@ -38,24 +37,63 @@
       <h2 class="heading"> About </h2>
     </div>
 
-    <div id="bio">
-      <p>
-        Through immersing myself in the thriving Berlin Tech scene I'm transitioning from a profession based around managing and organising others, to a position where I'm engineering, building and creating myself.
-      </p>
-      <div class='profilepic'>
-        <img id="profile" class="img-responsive" src="http://s21.postimg.org/olhgd6gt3/Ndousset.jpg" </img>
+    <div class="bio">
+
+      <div class='left'>
+        <h2 class="topicHeading"> Bio: </h2>
+        <p>
+          Through immersing myself in the thriving Berlin Tech scene I'm transitioning from a profession based around managing and organising others, to a position where I'm engineering, building and creating myself.
+        </p>
+        <p>
+          My favourite things are Ultimate Frisbee, cooking & great food, travelling & exploring, skiing & hiking.
+        </p>
+<br>
+        <h2 class="topicHeading"> My Coding Story: </h2>
+
+        <p> I felt accomplished and challenged as a Project Manager. I was managing other professionals', I understood the ins-and-outs of my projects, I was anticipating risks and solving problems.
+         I was good at my job, but I wasn't satisfied.</p>
+
+        <p>  I had a nagging desire to create, design and 'do' something myself. Coding and app development had always been on my radar but I never seriously considered a career change into Tech.
+          In June 2016 I took the opportunity of representing Australia at the Ultimate Frisbee World Championships in London to take a career break and extensively travel Eastern Europe.
+          </p>
+
+        <p>
+          While travelling, I entertained my curiosity in website, application and program development. In September 2016, I settled in Berlin and committed to learn the art and science of Web Development.
+         </p>
+
+        <p> Reach out on Twitter to follow my journey, lend some advice or join me in learning Web Development. </p>
+
       </div>
-      <p>
-        I've created this website with HTML, CSS & JavaScript to track my progress and goals while sharing my 'Web Dev Notes' with the community. All feedback, advice and suggestions are eagerly welcome.
-      </p>
+      <!-- close left-->
+
+
+      <div class='profilepic right'>
+         <img id="profile" src="http://s21.postimg.org/olhgd6gt3/Ndousset.jpg" </img>
+
+         <button id=twitterbutton>
+           <a href="https://twitter.com/Nick_Dousset" target="_blank">
+           <i class="fa fa-twitter" aria-hidden="true"></i> Follow   </a>
+          </button>
+
+          <button id=twitterbutton>
+            <a href="https://www.linkedin.com/in/nicholas-dousset-68014041" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i> Connect   </a>
+           </button>
+
+           <button id=twitterbutton>
+             <a href="mailto:ndousset@hotmail.com" target="_blank">
+             <i class="fa fa-envelope" aria-hidden="true"></i> Email   </a>
+            </button>
+
+       </div> <!-- close right -->
 
     </div>
-    <!-- close bio -->
-  </div>
-  <!-- close page2 -->
+    <!-- close bio page -->
+
+    </div>
+    <!-- close bio page-->
 
 
-</div>
 
 
   <div class="container" id="goals">
@@ -70,11 +108,11 @@
         <ul>
           <li><a href="#"> Courses </a>
             <ul>
-              <li><a href="#"> Front End Dev Certification <br> <span class="italic"> FreeCodeCamp </span> </a> </li>
               <li><a href="#"> Basic Javascript <br><span class="italic">  FreeCodeCamp</span>  </a> </li>
               <li><a href="#"> Javascript Fundamentals <br><span class="italic"> Codecademy</span>  </a> </li>
               <li><a href="#"> JQuery <br><span class="italic">  Codecademy</span>  </a> </li>
               <li><a href="#"> Learn Git <br> <span class="italic"> Codecademy </span> </a> </li>
+              <li><a href="#"> Learn Sass <br> <span class="italic"> Codecademy </span> </a> </li>
             </ul>
           </li>
           <li><a href="#"> Static Webpages </a>
@@ -87,6 +125,8 @@
               <li><a href="http://codepen.io/ndousset/full/LbYQxd/" target="_blank"> Mouse Animation  </a></li>
               <li><a href="http://codepen.io/ndousset/full/ObLYEV/" target="_blank"> Comment Box  </a></li>
               <li><a href="http://codepen.io/ndousset/full/PbJNQJ/" target="_blank"> Contact Form  </a></li>
+              <li><a href="http://codepen.io/ndousset/full/pNYvaz" target="_blank"> Javascript Flex Pannels </a></li>
+              <li><a href="http://codepen.io/ndousset/full/yVrzdb" target="_blank"> Using AJAX to request JSON Data </a></li>
             </ul>
           </li>
         </ul>
@@ -103,16 +143,14 @@
         <ul>
           <li><a href="#"> Short Term </a>
             <ul>
-              <li><a href="#"> Create simple javascript application </a></li>
-              <li><a href="#"> Keep Developing this webpage </a></li>
-              <li><a href="#"> Document all notes </a></li>
-
+              <li><a href="#"> Create simple javascript applications </a></li>
+              <li><a href="#"> jquery </a></li>
+              <li><a href="#"> Make this page mobile responsive </a></li>
             </ul>
           </li>
           <li><a href="#"> Mid Term </a>
             <ul>
               <li><a href="#"> Angular 2  </a></li>
-              <li><a href="#"> jquery </a></li>
               <li><a href="#"> Study Design Principles </a></li>
               <li><a href="#"> Data Visualisation </a></li>
             </ul>
@@ -133,239 +171,14 @@
 </div>
 
   <!-- close page3 -->
-<div id="webDevNotes">
-    <div align="center" class="heading-space">
-    <h2 class="heading"> Web Dev Notes </h2>
-  </div> <!-- close heading space -->
-
-
-
-<div class="sidebar">
-
-  <div class="studyGroup">
-  <h2> Join the Study Group! </h2>
-
-  <!-- Begin MailChimp Signup Form -->
-  <div id="mc_embed_signup">
-  <form action="//github.us14.list-manage.com/subscribe/post?u=4714e89b4a6736eb5b3d1a0f8&amp;id=4e1bf8d953" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-
-  <div class="mc-field-group">
-  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="E-mail" >
-  </div>
-  	<div id="mce-responses" class="clear">
-  		<div class="response" id="mce-error-response" style="display:none"></div>
-  		<div class="response" id="mce-success-response" style="display:none"></div>
-  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4714e89b4a6736eb5b3d1a0f8_4e1bf8d953" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-  </form>
-  </div>
-<p> Receive a monthly study guide</p>
-  <!--End mc_embed_signup-->
-
-  </div>
-
-<div id=twitterFollow>
-<button id=twitterbutton>
-  <a href="https://twitter.com/Nick_Dousset" target="_blank">
-  <i class="fa fa-twitter" aria-hidden="true"></i> Follow   </a>
- </button>
-</div>
-
-
-
-<div id="archive">
-
-<h2> Notes: </h2>
-
-<div>
-Project Manager to Frontend Developer
-</div>
-
-
-</div> <!-- close archive -->
-</div> <!-- close sidebar -->
-
-
-<!-- close side bar -->
-
-<div class="articles">
-
-
-<div class="topic">
-<h1 class="topicheading">Project Manager to Frontend Developer: My Coding Story </h1>
-
-<p class="firstParagraph"> I felt accomplished and challenged as a Project Manager. I was managing other professionals', I understood the ins-and-outs of my projects, I was anticipating risks and solving problems.
- I was a good at my job, but I was unsatisfied.</p>
-
-
-<p>  I had a nagging desire to create, design and 'do' something myself. Coding and app development had always been on my radar but I never seriously considered a career change into Tech.
-  In June 2016 I took the opportunity of representing Australia at the Ultimate Frisbee World Championships in London to take a career break and extensively travel Eastern Europe.
-  </p>
-  <p class="quote"> *Quarter-life crisis in full swing* </p>
-<p>
-  While travelling, I entertained my curiosity in website, application and program development. In September 2016, I settled in Berlin and committed to learn the art and science of Web Development with the impression that I would teach myself to code.
- </p>
-<p> A few months down the particularly bumpy road I haven't looked back. The 'self taught path' is flexible and liberating but is only as structured as your self control; there's no assignment or exam pressure (while isn't pleasurable, undoubtedly works), only your own motivation to make progress each day.  </p>
-
-  <p>
- I made this website using HTML, CSS and javascript to track my progress and goals, practice the tools I learn and to share my 'Web Dev Notes' with the community. My vision is to create a collection of tutorials, examples and notes as a reference for myself and others learning Web Development.
-    Please reach out! I would love to hear from you.
-</div> <!-- close topic -->
-
-
-<div class="topic">
-<h1 class="topicheading"> Website Layout Notes </h1>
-    <div class="taglist">
-    <ul>
-      <li> CSS / HTML </li>
-    </ul>
-  </div>
-
-  <h3 class="topicsubheading">The Display Property </h3>
-  <div>
-    <p> Display property is the most important property for controlling layout. Every element has a default display value depending on what type of element it is. Display propery types include: </p>
-    <ul class="notes">
-      <li class="notes">
-         <p> <b> Block (or block level): </b> Starts on a new line & stretches to the left and right as far as it can. I.e. div, p, form, header, footer, section. </p>
-      </li>
-      <li>
-         <p> <b> Inline: </b> Occupies only the space bound by the tags that define the inline element, they generally don't start a new line and contain only data or other inline elements i.e. span, a, img, strong, i. </p>
-      </li>
-      <li>
-        <p> <b> None: </b> Commonly used to hide & show elements without deleting and re-creating them </p>
-      </li>
-      <li>
-        <p> <b> Other properties: </b> There are many other properties all with unqiue uses, i.e. table, grid, flex... </p>
-      </li>
-    </ul>
-    <p>Every element has a pre-defined display type, however, it can always be overridden to customise the display of elements i.e. making 'li' elements 'inline' for horizontal menus </p>
-  </div>
-
-
-    <h3 class="topicsubheading">Centering with 'Margin: auto' </h3>
-      <textarea class=smalltxtarea>
-       #list {
-       max-width: 450px;
-       margin: 0 auto;
-       </textarea
-
-    <div class="bulletpoints">
-      <ul>
-        <li> Setting the width of an element prevents it from stretching to the edges of it's container </li>
-        <li> Setting left & right margins to 'auto' horizontally centers an element within it's container </li>
-        <li>The element takes up the width you specify, the remaining space either side is shared between the two margins </li>
-        <li>Using 'max-width' allows better handling of small windows, allowing a site to be usable on mobile </li>
-      </ul>
-    </div>
-
-<div class="topic">
-  <h2> The Box Model <span class="subheading"> widths biggest caveat </span>  </h2>
-
-
-  <div id="box1">
-    <p> An element can appear larger than the width you set. An elements boarder & padding will stretch an element as seen with these 2 boxes </p>
-    width: 500px; <br></br>
-    margin: 20px auto;
-  </div>
-
-  <div id="box2">
-    width: 500px; <br></br>
-    margin: 20px auto; <br></br>
-    padding: 50px;
-  </div>
-
-  <p> This was considered unintuitive so a css property called 'box-sizing' was created. When you set (box-sizing: border-box) on an element, the padding and border no londer increases its width </p>
-
-  <div id="box3">
-    max-width: 500px; <br></br>
-    margin: 20px auto;<br></br>
-    -webkit-box-sizing: border-box;<br></br>
-    -moz-box-sizing: border-box;<br></br>
-    box-sizing: border-box;
-  </div>
-
-  <div id="box4">
-    max-width: 500px; <br></br>
-    margin: 20px auto; <br></br>
-    padding: 50px;<br></br>
-    -webkit-box-sizing: border-box;<br></br>
-    -moz-box-sizing: border-box;<br></br>
-    box-sizing: border-box;
-  </div>
-
-  <p class="sameblock"> Since box-sizing is a recent property, using the -webkit- and -moz- prefixes enables the feature in specific browsers. If you would like all elements to work this way, include the following CSS on your page: </p>
-
-  <div id="example2">
-    <p class="sameblock">* { </p>
-    <p class="sameblock"><span class="indent"></span> -webkit-box-sizing: border-box; </p>
-    <p class="sameblock"><span class="indent"></span> -moz-box-sizing: border-box; </p>
-    <p class="sameblock"><span class="indent"></span> box-sizing: border-box; </p>
-    <p class="sameblock"> } </p>
-  </div>
-</div>
-<!-- close box topic -->
-<div class="topic">
-  <h2> Position </h2>
-  <p> Position specifies which type of positioning method is used for an element: Static, Relative, Absolute or Fixed. </p>
-
-   <ul>
-      <li class="sameblock">
-        <h4 class="sameblock">Static </h4>
-        <p class="sameblock"> Default value, a 'static' element is said to be 'not positioned'. Elements render in order as they appear in the document flow. </p>
-      </li>
-      <li class="sameblock">
-        <h4 class="sameblock">  Relative </h4>
-        <p class="sameblock"> Behaves the same as static unless you define further properties: (top, right, bottom, left) the element is then positioned relative to its normal position. i.e left:20px; will add 20 pixels to the elements left position </p>
-      </li>
-      <li class="sameblock">
-        <h4 class="sameblock"> Fixed </h4>
-        <p class="sameblock">Positioned relative to the browser window - it stays in position when the page is scrolled. Commonly used for headers and footers. - Mobile browsers have poor support for fixed.  </p>
-      </li>
-      <li class="sameblock">
-        <h4 class="sameblock"> Absolute </h4>
-        <p class="sameblock"> Absolute behaves like fixed except relative to the nearest positioned ancestor instead of the browser window. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. A "positioned" element is one whose position is anything except static.  </p>
-     </li>
-    </ul>
-  <h4> insert positioning example </h4>
-
-
-</div>
-<!-- close topic -->
-<div class="topic">
-  <h2> Float </h2>
-  <img id="floatExampleImg" src="https://i.imgsafe.org/eef8488c83.jpg" alt="mushroom picture I took">
-  <p id="floatExample"> Originally for floating images inside blocks of text like I have done here, the float property has become one of the most commonly used tools for creating multiple column layouts on webpages </p>
-
-<p> the element with the float set on it (the img element in this case) is taken out of the normal layout flow of the document and stuck to the left hand side of its parent container. </p>
- <p> Any content that comes below the floated element in the normal layout flow will now wrap around it, filling up the space to the left hand side of it as far up as the top of the floated element. Note that floated content still obeys normal box behaviour with things such as margin and borders.</p>
-
-</div> <!-- close topic -->
-
-
-</div> <!-- close articles -->
-<div class="clear">
-</div> <!-- close clear -->
-
-</div> <!-- close web deb notes -->
-</div>
-</div>
-
-
-
-<!-- close page4 -->
-
-
 
 <footer>
   <nav class="nav icon-set">
         <ul class="nav navbar-nav">
-          <li id="leftalign"> Nick Dousset - 2016 </li>
-            <li> Let's compare notes </li>
+          <li id="leftalign"> Nick Dousset - 2017 </li>
+            <li> Get in touch! </li>
             <li><a href="https://de.linkedin.com/in/nicholas-dousset-68014041" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#page4"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="mailto:ndousset@hotmail.com"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://twitter.com/Nick_Dousset" target="_blank"><i class="fa fa-twitter"></i></a></li>
         </ul>
     </nav>

@@ -1,6 +1,6 @@
 $(function(){
   $(window).scroll(function() {
-    if ($(this).scrollTop()>= 250) {
+    if ($(this).scrollTop()>= 255) {
        $('nav.main-nav').addClass('stickytop');
     }
     else {

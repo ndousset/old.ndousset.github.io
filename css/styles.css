@@ -192,12 +192,11 @@ color: #FF7B3A;
 #page1  {
 height: 630px;
 Background:
-  url(https://s13.postimg.org/3k7iujxh3/DSC_0444_2.jpg) no-repeat center center fixed;
+  url(../images/landing.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-text-align: center
 }
 
 #about  {
